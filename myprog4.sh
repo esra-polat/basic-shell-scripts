@@ -14,7 +14,7 @@ if [ -f $file ]; then
     exec ./myprog.sh
     
 
-#the file is not exist
+#if the file is not exist
 else
 echo The file does not exist
 echo "Press a key to return to the menu. . .";
