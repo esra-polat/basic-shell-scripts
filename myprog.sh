@@ -12,7 +12,7 @@ while :; do
     1)
         echo "Please enter a filename: "
         read arg
-        exec ./myprog1.sh "arg"
+        exec ./myprog1.sh "$arg"
         ;;
 
     2)
@@ -25,13 +25,13 @@ while :; do
     3)
         echo "If you want, please enter pathname or continue without argument: "
         read arg
-        exec ./myprog3.sh "arg"
+        exec ./myprog3.sh "$arg"
         ;;
 
     4)
         echo "Please enter a filename : "
         read arg
-        exec ./myprog4.sh "arg"
+        exec ./myprog4.sh "$arg"
         ;;
 
     5)
