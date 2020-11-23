@@ -38,7 +38,7 @@ while :; do
         echo "If you want, please enter a wildcard with -R or continue without wildcard: "
         read arg
         arr=($arg)
-        exec ./myprog2.sh "${arr[0]}" "${arr[1]}"
+        exec ./myprog5.sh "${arr[0]}" "${arr[1]}"
         ;;
 
     6) exit 0 ;;
