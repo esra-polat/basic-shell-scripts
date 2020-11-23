@@ -30,7 +30,7 @@ if [ $1 ]; then
         copy_func
     fi
 fi
-# echo "Press a key...";
-# read
-# echo
-# exec ./myprog.sh
+ echo "Press a key...";
+ read
+ echo
+ exec ./myprog.sh
